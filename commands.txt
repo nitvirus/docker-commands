@@ -1,0 +1,5 @@
+docker run -p 80:80 -ti  <ImageID>
+docker ps
+Will list the running containers
+docker exec -ti <Container Name> /bin/bash
+cd /var/www/site-php
